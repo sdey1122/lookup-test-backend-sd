@@ -1,0 +1,545 @@
+{
+  "info": {
+    "_postman_id": "f27113d3-ef97-4f68-bd76-f5f03e5b798d",
+    "name": "lookup-class-test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "28630375"
+  },
+  "item": [
+    {
+      "name": "add-show-all-data",
+      "item": [
+        {
+          "name": "generate-dummy-data",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/generate-data",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "generate-data"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "show-all-departments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/departments",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "departments"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "show-all-users",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/users",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "show-all-projects",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/projects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "projects"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "show-all-tasks",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/tasks",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "tasks"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "all-solved-questions",
+      "item": [
+        {
+          "name": "q1",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q2",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q3",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q3",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q3"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q4",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q4",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q5",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q5",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q5"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q6",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q6",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q6"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q7",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q7",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q7"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q8",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q8",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q8"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q9",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q9",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q9"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q10",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q10"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q11",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q11",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q11"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q12",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q12",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q12"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q13",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q13",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q13"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q14",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q14",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q14"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q15",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q15",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q15"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q16",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q16",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q16"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q17",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q17",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q17"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q18",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q18",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q18"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q19",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q19",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q19"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "q20",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4999/api/aggregation/q20",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4999",
+              "path": [
+                "api",
+                "aggregation",
+                "q20"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
